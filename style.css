@@ -5,6 +5,11 @@ html {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+.container {
+  display: flex; /* or inline-flex */
+  justify-content: center;
+  flex-flow: column wrap;
+}
 .number {
   padding-bottom: 2rem;
 }
@@ -13,6 +18,7 @@ html {
   padding-top: 20px;
   list-style-type: none;
 }
+
 .inputForm {
   text-align: center;
 }
@@ -27,4 +33,40 @@ ul li {
   border-radius: 5%;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
+  align-self: center;
+}
+.giphy-embed {
+  border-radius: 25px;
+}
+
+.button {
+  -moz-border-radius: 25px;
+  -moz-box-shadow: #6e7849 0px 0px 10px;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-border-radius: 25px;
+  -webkit-box-shadow: #6e7849 0 0 10px;
+  -webkit-transition: all 0.5s ease;
+  background-color: #6e7849;
+  background-image: -moz-linear-gradient(90deg, #b9c788, #6e7849);
+  background-image: -ms-linear-gradient(90deg, #b9c788, #6e7849);
+  background-image: -o-linear-gradient(90deg, #b9c788, #6e7849);
+  background-image: -webkit-linear-gradient(90deg, #b9c788, #6e7849);
+  background-image: linear-gradient(90deg, #b9c788, #6e7849);
+  border-radius: 10px;
+  border: 2px solid #4a5032;
+  box-shadow: #6e7849 0px 0px 10px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1em;
+  margin: auto;
+  padding: 5px;
+  text-decoration: none;
+  text-shadow: #000000 5px 5px 15px;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  padding: 15px;
 }
