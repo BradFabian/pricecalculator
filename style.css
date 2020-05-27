@@ -1,0 +1,30 @@
+html {
+  background-color: teal;
+  color: whitesmoke;
+  text-shadow: rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.number {
+  padding-bottom: 2rem;
+}
+.output {
+  text-align: center;
+  padding-top: 20px;
+  list-style-type: none;
+}
+.inputForm {
+  text-align: center;
+}
+ul li {
+  padding: 1rem;
+  margin: 1rem;
+  color: whitesmoke;
+  width: 20rem;
+  background-color: rgb(33, 22, 65);
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 5%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+}

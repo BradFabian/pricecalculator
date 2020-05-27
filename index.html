@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <title>Price Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputForm">
+        <h1>Calculate Item Amount Here:</h1>
+        <form>
+          <label for="number" class="number">Number to Calculate:</label><br />
+          <input type="text" id="myNumber" name="myNumber" />
+          <button type="button" onclick="MultiplyButton()" id="button">
+            Submit
+          </button>
+        </form>
+      </div>
+      <div><ul class="output" id="output"></ul></div>
+    </div>
+  </body>
+</html>
